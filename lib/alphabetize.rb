@@ -3,5 +3,5 @@ def alphabetize(arr)
   esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
   arr.sort_by do |phrase|
-    phrase.split("").
+    phrase.split("").collect do 
 end
